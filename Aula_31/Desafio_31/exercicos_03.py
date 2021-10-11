@@ -1,3 +1,5 @@
+# Faça um programa que mostre uma contagem regressiva que inicia em 10 e termina em 0.
+
 import os
 
 from time import sleep
