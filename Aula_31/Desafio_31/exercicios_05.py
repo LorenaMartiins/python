@@ -1,3 +1,5 @@
+# Faça um programa que gere as tabuadas do 1 até o 10.
+
 import os
 
 for x in range(1, 11):
