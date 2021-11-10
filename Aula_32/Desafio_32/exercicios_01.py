@@ -1,7 +1,5 @@
 import os
 
-# Calculo de media de nota
-
 def bis(n1, n2, n3, n4, n5):
   calc = (n1 + n2 + n3 + n4 + n5)/5
   if calc >= 6:
