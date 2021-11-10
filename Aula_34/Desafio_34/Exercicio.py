@@ -1,3 +1,5 @@
+# Um programa em Python que conte o número de vogais em um arquivo de texto.
+
 import os
 
 nome = 'musica.txt'
