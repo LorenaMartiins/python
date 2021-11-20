@@ -1,3 +1,5 @@
+# Puxando informação sobre um filme no site AdoroCinema
+
 import os, requests
 from bs4 import BeautifulSoup
 
