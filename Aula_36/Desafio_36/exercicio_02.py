@@ -1,3 +1,5 @@
+# Programa 2 que monta uma planilha com informações extraídas de uma página web 
+
 import os, requests, openpyxl
 from bs4 import BeautifulSoup
 from openpyxl.styles import Border, Side, Alignment
