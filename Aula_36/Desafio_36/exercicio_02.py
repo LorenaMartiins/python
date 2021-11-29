@@ -21,7 +21,6 @@ for x in range(n_filmes):
   html4 = url4.content
   film1 = BeautifulSoup(html4, 'html.parser')
 
-
   titulo = film1.find('div', attrs={'class': 'titlebar-title titlebar-title-lg'} )
   data_um = film1.find('div', attrs={'class': 'meta-body-item meta-body-info'} )
   genero_um = film1.find('div', attrs={'class': 'meta-body-item meta-body-info'} )
