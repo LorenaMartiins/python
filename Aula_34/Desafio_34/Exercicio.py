@@ -33,8 +33,7 @@ if os.path.exists(nome):
   for a in range(len(musica)):
     if musica[a] == 'u' or musica[a] == 'U':
       cont += 1    
-  print('O numero de letras U: ', cont)
-     
+  print('O numero de letras U: ', cont)  
 else:
   print("Arquivo não encontrado")
 
