@@ -2,7 +2,7 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 
-planilha = pd.read_excel('Cotação dolár.xlsx')
+planilha = pd.read_excel('Cotacao dolar.xlsx')
 dolar = planilha['VALOR']
 
 plt.title("Cotação do Dolár - Jan/Nov")
